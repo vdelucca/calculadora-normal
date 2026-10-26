@@ -1,0 +1,35 @@
+.calculadora{
+    margin: 50px auto;
+    border-radius: 5%;
+    border: 2px solid black;
+    width: 40%;
+    background-color: rgb(206, 212, 220);
+    text-align: center;
+}
+
+button{
+    border: none;
+    border-radius: 8%;
+    background-color: rgb(78, 213, 63);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+#resultado{
+    display: inline-block;
+    min-width: 120px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#limpar{
+    background-color: rgb(214, 71, 71);
+}
+
